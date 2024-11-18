@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("images/Drumkit images.jpeg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .my-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 480px;
+     position: absolute;
+     background-color: rgb(201, 177, 177);
+     padding: 20px;
+     border-radius: 20px;
+     transition: 0.5s ease-in-out;
+  }
+
+  .my-name:hover {
+    background-color: rgb(200, 215, 214);
+  }
+
+
+  .samples {
+    display: flex;
+    position: absolute;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 320px;
+   margin-left: 220px;
+   
+
+  }
+
+
+
+  .btn {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+
+
+
+
+  @media only screen and (max-width: 492px) {
+    .my-name {
+      margin: 0;
+      padding: 5;
+      font-size: 25px;
+      color: blanchedalmond;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      left: 50px;
+      top: 100px;
+      box-sizing: border-box;
+      background-color: transparent;
+
+    }
+
+
+    .samples {
+       margin: 0;
+       top: 250px;
+      
+    
+    }
+
+    .my-name:hover {
+      background-color: rgb(72, 68, 54);
+    }
+
+
+  }
